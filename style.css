@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100svh;
+  width: auto;
+  font-family: "Golos Text", sans-serif;
+  overflow-y: hidden;
+}
+
+.root {
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar-fragment {
+  color: azure;
+
+  font-family: "Golos Text", sans-serif;
+  font-weight: 700;
+  /*margin: 0px 15px 0px 15px;*/
+  padding: 0px 15px 0px 15px;
+  height: 60px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-fragment:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 27, 27);
+}
+
+.content {
+  margin-top: 60px;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 100svh;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.hull {
+  height: 100svh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.hull-1 {
+  background-color: blue;
+}
+
+.hull-2 {
+  background-color: red;
+}
+
+.hull-3 {
+  background-color: purple;
+}
+
+.hull-4 {
+  background-color: yellow;
+}
