@@ -13,6 +13,7 @@ body {
   width: auto;
   font-family: "Golos Text", sans-serif;
   overflow-y: hidden;
+  background-color: rgb(51, 51, 72);
 }
 
 .root {
@@ -43,6 +44,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -59,6 +61,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   margin-top: 60px;
+  overflow-x: hidden;
 }
 
 .content::-webkit-scrollbar {
@@ -77,10 +80,110 @@ body {
   background-color: rgb(51, 51, 72);
 }
 
+.hull-fragment-box-contain {
+  position: relative;
+}
+
 .hull-fragment-box-1 {
   background-color: aliceblue;
-  height: 100px;
-  width: 500px;
+  margin-top: 20px;
+  height: 350px;
+  width: 1300px;
+  border-radius: 15px;
+  border: 3px solid rgb(234, 234, 234);
+  display: flex;
+  overflow: hidden;
+}
+
+.hull-fragment-box-1 img {
+  position: relative;
+  width: 1300px;
+  height: 350px;
+  object-fit: cover;
+  transition: all 0.7s ease;
+}
+
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0%;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -1300px;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -2600px;
+}
+
+#r4:checked ~ .s1 {
+  margin-left: -3900px;
+}
+
+#r5:checked ~ .s1 {
+  margin-left: -5200px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  margin: 6px;
+  transition: all 0.5s ease;
+}
+
+.bar:hover {
+  background: #fff;
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.navigation-auto div {
+  border: 2px solid #fff;
+  margin: 6px;
+  width: 50px;
+  height: 10px;
+  transition: 0.5s ease;
+}
+
+#r1:checked ~ .navigation-auto .auto-btn1 {
+  background: #fff;
+}
+
+#r2:checked ~ .navigation-auto .auto-btn2 {
+  background: #fff;
+}
+
+#r3:checked ~ .navigation-auto .auto-btn3 {
+  background: #fff;
+}
+
+#r4:checked ~ .navigation-auto .auto-btn4 {
+  background: #fff;
+}
+
+#r5:checked ~ .navigation-auto .auto-btn5 {
+  background: #fff;
 }
 
 .hull-2 {
