@@ -1,0 +1,30 @@
+@media screen and (max-width: 476px) {
+  .hull-fragment-box-1 {
+    height: 100px;
+    width: 371.43px;
+    border-radius: 8px;
+  }
+  .hull-fragment-box-1 img {
+    height: 100px;
+    width: 371.43px;
+  }
+  #r1:checked ~ .s1 {
+    margin-left: 0;
+  }
+
+  #r2:checked ~ .s1 {
+    margin-left: -371.43px;
+  }
+
+  #r3:checked ~ .s1 {
+    margin-left: -742.86px;
+  }
+
+  #r4:checked ~ .s1 {
+    margin-left: -1114.29px;
+  }
+
+  #r5:checked ~ .s1 {
+    margin-left: -1485.72px;
+  }
+}
