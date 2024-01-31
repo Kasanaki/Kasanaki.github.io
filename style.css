@@ -60,6 +60,7 @@ body {
   position: relative;
   height: fit-content;
   margin-top: 60px;
+  overflow-x: hidden;
   /* scroll-snap-type: y mandatory;
   overflow-y: scroll;
   -ms-overflow-style: none;

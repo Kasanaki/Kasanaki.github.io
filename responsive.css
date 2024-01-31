@@ -2,7 +2,8 @@
   .hull-fragment-box-1 {
     height: 87.5px;
     width: 325px;
-    border-radius: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(234, 234, 234);
   }
   .hull-fragment-box-1 img {
     height: 87.5px;
@@ -39,10 +40,12 @@
   .navigation-auto div {
     width: 5px;
     height: 5px;
+    border: 1px solid #fff;
   }
 
   .bar {
     width: 5px;
     height: 5px;
+    border: 1px solid #fff;
   }
 }
