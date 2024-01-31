@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 * {
@@ -9,11 +10,11 @@ html {
 }
 
 body {
-  height: fit-content;
+  min-height: 100svh;
   width: auto;
   font-family: "Golos Text", sans-serif;
-  overflow-y: hidden;
   background-color: rgb(51, 51, 72);
+  overflow-x: hidden;
 }
 
 .root {
@@ -57,13 +58,14 @@ body {
 .content {
   width: 100%;
   position: relative;
-  height: 100svh;
-  scroll-snap-type: y mandatory;
+  height: fit-content;
+  margin-top: 60px;
+  /* scroll-snap-type: y mandatory;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  margin-top: 60px;
-  overflow-x: hidden;
+
+  overflow-x: hidden;*/
 }
 
 .content::-webkit-scrollbar {
@@ -71,7 +73,7 @@ body {
 }
 
 .hull {
-  height: 95svh;
+  height: 1000px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -85,7 +87,7 @@ body {
 
 .hull-fragment {
   position: relative;
-  height: 100svh;
+  height: fit-content;
 }
 
 .hull-fragment-box-contain {

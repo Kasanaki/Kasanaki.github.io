@@ -1,30 +1,48 @@
 @media screen and (max-width: 476px) {
   .hull-fragment-box-1 {
-    height: 100px;
-    width: 371.43px;
+    height: 87.5px;
+    width: 325px;
     border-radius: 8px;
   }
   .hull-fragment-box-1 img {
-    height: 100px;
-    width: 371.43px;
+    height: 87.5px;
+    width: 325px;
   }
   #r1:checked ~ .s1 {
     margin-left: 0;
   }
 
   #r2:checked ~ .s1 {
-    margin-left: -371.43px;
+    margin-left: -325px;
   }
 
   #r3:checked ~ .s1 {
-    margin-left: -742.86px;
+    margin-left: -650px;
   }
 
   #r4:checked ~ .s1 {
-    margin-left: -1114.29px;
+    margin-left: -975px;
   }
 
   #r5:checked ~ .s1 {
-    margin-left: -1485.72px;
+    margin-left: -1300px;
+  }
+
+  .navigation {
+    bottom: 20px;
+  }
+
+  .navigation-auto {
+    bottom: 20px;
+  }
+
+  .navigation-auto div {
+    width: 5px;
+    height: 5px;
+  }
+
+  .bar {
+    width: 5px;
+    height: 5px;
   }
 }
