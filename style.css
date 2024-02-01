@@ -124,6 +124,7 @@ body {
 
 .hull-fragment-box-1 {
   background-color: aliceblue;
+  position: relative;
   margin-top: 20px;
   height: 400px;
   width: 1300px;
@@ -193,7 +194,7 @@ input[name="r"] {
   display: flex;
   width: 800px;
   justify-content: center;
-  bottom: 30px;
+  bottom: 7px;
   left: 50%;
   transform: translate(-50%);
 }
