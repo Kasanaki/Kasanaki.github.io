@@ -23,7 +23,7 @@
     width: 325px;
   }
   #r1:checked ~ .s1 {
-    margin-left: 0;
+    margin-left: 0%;
   }
 
   #r2:checked ~ .s1 {
