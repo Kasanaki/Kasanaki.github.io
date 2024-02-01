@@ -1,8 +1,8 @@
 @media screen and (max-width: 476px) {
   .hull-1 {
     background-image: url(img/Honkai-Star-Rail\ 476\ 2.png);
-    background-size: 70svh;
-    height: 750px;
+    background-size: 130%;
+    height: 800px;
   }
 
   .hull-fragment-box-1 {
