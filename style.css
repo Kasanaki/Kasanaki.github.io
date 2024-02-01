@@ -83,7 +83,8 @@ body {
 }
 
 .hull-1 {
-  background-color: rgb(51, 51, 72);
+  /*background-color: rgb(51, 51, 72);*/
+  background-color: rgb(24, 24, 24);
 }
 
 .hull-fragment {
@@ -96,13 +97,25 @@ body {
   z-index: 1;
 }
 
+.hull-fragment-box-contain-2 {
+  position: relative;
+  height: 300px;
+  /*background: rgba(111, 111, 111, 0.23);*/
+  background-color: rgb(46, 46, 63);
+  border-radius: 3px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(111, 111, 111, 1);
+}
+
 .hull-fragment-box-1 {
   background-color: aliceblue;
   margin-top: 20px;
   height: 400px;
   width: 1300px;
-  border-radius: 15px;
-  border: 3px solid rgb(234, 234, 234);
+  border-radius: 7px;
+  border: 2px solid rgb(234, 234, 234);
   display: flex;
   overflow: hidden;
 }
