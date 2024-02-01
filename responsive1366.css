@@ -19,7 +19,7 @@
     width: 928.571px;
   }
   #r1:checked ~ .s1 {
-    margin-left: 0;
+    margin-left: 0px;
   }
 
   #r2:checked ~ .s1 {

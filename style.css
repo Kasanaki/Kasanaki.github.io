@@ -84,6 +84,7 @@ body {
   justify-content: center;
   scroll-snap-align: start;
   position: relative;
+  overflow: hidden;
 }
 
 .hull-1 {
