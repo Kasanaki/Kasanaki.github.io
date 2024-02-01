@@ -1,0 +1,12 @@
+@media screen and (max-width: 1366px) {
+  .hull-fragment-box-1 {
+    height: 307.692px;
+    width: 1000px;
+    border-radius: 5px;
+    border: 2px solid rgb(234, 234, 234);
+  }
+  .hull-fragment-box-1 img {
+    height: 307.692px;
+    width: 1000px;
+  }
+}
