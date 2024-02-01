@@ -19,18 +19,18 @@
   }
 
   #r2:checked ~ .s1 {
-    margin-left: -1000px;
+    margin-left: -928.571px;
   }
 
   #r3:checked ~ .s1 {
-    margin-left: -2000px;
+    margin-left: -1857.142px;
   }
 
   #r4:checked ~ .s1 {
-    margin-left: -3000px;
+    margin-left: -2785.713px;
   }
 
   #r5:checked ~ .s1 {
-    margin-left: -4000px;
+    margin-left: -3714.284px;
   }
 }

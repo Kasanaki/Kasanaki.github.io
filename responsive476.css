@@ -6,7 +6,7 @@
     border: 2px solid rgba(111, 111, 111, 1);
   }
   .hull-fragment-box-1 img {
-    height: 87.5px;
+    height: 100px;
     width: 325px;
   }
   #r1:checked ~ .s1 {
