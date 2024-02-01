@@ -14,7 +14,7 @@
     height: 360px;
   }
 
-  .hull-fragment-box-1 img {
+  /* .hull-fragment-box-1 img {
     height: 285.714px;
     width: 928.571px;
   }
@@ -36,5 +36,28 @@
 
   #r5:checked ~ .s1 {
     margin-left: -3714.284px;
+  }*/
+  .hull-fragment-box-1 img {
+    height: 286px;
+    width: 929px;
+  }
+  #r1:checked ~ .s1 {
+    margin-left: 0px;
+  }
+
+  #r2:checked ~ .s1 {
+    margin-left: -929px;
+  }
+
+  #r3:checked ~ .s1 {
+    margin-left: -1858px;
+  }
+
+  #r4:checked ~ .s1 {
+    margin-left: -2787px;
+  }
+
+  #r5:checked ~ .s1 {
+    margin-left: -3716px;
   }
 }
