@@ -1,12 +1,31 @@
 @media screen and (max-width: 1366px) {
   .hull-fragment-box-1 {
-    height: 307.692px;
-    width: 1000px;
+    height: 285.714px;
+    width: 928.571px;
     border-radius: 5px;
     border: 2px solid rgb(234, 234, 234);
   }
   .hull-fragment-box-1 img {
-    height: 307.692px;
-    width: 1000px;
+    height: 285.714px;
+    width: 928.571px;
+  }
+  #r1:checked ~ .s1 {
+    margin-left: 0;
+  }
+
+  #r2:checked ~ .s1 {
+    margin-left: -1000px;
+  }
+
+  #r3:checked ~ .s1 {
+    margin-left: -2000px;
+  }
+
+  #r4:checked ~ .s1 {
+    margin-left: -3000px;
+  }
+
+  #r5:checked ~ .s1 {
+    margin-left: -4000px;
   }
 }
