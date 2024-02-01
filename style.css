@@ -88,11 +88,11 @@ body {
 
 .hull-1 {
   /*background-color: rgb(51, 51, 72);*/
-  height: 810px;
+  height: 850px;
   background-color: rgb(24, 24, 24);
   background-image: url(img/Honkai-Star-Rail.png);
   background-position: top center;
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
