@@ -1,8 +1,14 @@
+@media screen and (max-width: 376px) {
+  .hull-1 {
+    height: 580px;
+  }
+}
+
 @media screen and (max-width: 476px) {
   .hull-1 {
     background-image: url(img/Honkai-Star-Rail\ 476\ 2.png);
     background-size: 115%;
-    height: 800px;
+    height: 660px;
   }
 
   .hull-fragment-box-1 {
@@ -62,5 +68,29 @@
 
   .hull-fragment-box-contain-2 {
     height: 400px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .hull-1 {
+    height: 635px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .hull-1 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .hull-1 {
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hull-1 {
+    height: 555px;
   }
 }

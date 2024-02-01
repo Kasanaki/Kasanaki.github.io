@@ -224,7 +224,9 @@ input[name="r"] {
 }
 
 .hull-2 {
+  color: #fff;
   background-color: rgb(24, 24, 24);
+  margin-top: 25px;
 }
 
 .hull-3 {
