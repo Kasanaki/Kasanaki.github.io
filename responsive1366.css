@@ -5,6 +5,11 @@
     border-radius: 5px;
     border: 2px solid rgb(234, 234, 234);
   }
+
+  .hull-1 {
+    height: 680px;
+  }
+
   .hull-fragment-box-1 img {
     height: 285.714px;
     width: 928.571px;
