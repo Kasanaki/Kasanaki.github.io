@@ -6,3 +6,13 @@ setInterval(function () {
     counter = 1;
   }
 }, 7000);
+
+const sliderWidth = document.getElementById("hfb-1-img").style.maxWidth;
+
+console.log(screen.width);
+
+if (screen.width < 1366) {
+  document.getElementById("hfb-1-img").src = "img/penacony1366.png";
+} else {
+  null;
+}
