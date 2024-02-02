@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  min-height: 100svh;
   width: auto;
   font-family: "Golos Text", sans-serif;
   background-color: rgb(24, 24, 24);
@@ -18,7 +17,6 @@ body {
 }
 
 .root {
-  min-height: 100svh;
   display: flex;
   justify-content: center;
 }
