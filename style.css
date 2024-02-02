@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  width: auto;
+  min-width: 1280px;
   font-family: "Golos Text", sans-serif;
   background-color: rgb(24, 24, 24);
   overflow-x: hidden;

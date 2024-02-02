@@ -1,4 +1,8 @@
 @media screen and (max-width: 1366px) {
+  body {
+    min-width: 1366px;
+  }
+
   .hull-fragment-box-1 {
     height: 286px;
     width: 929px;
