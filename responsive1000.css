@@ -7,22 +7,22 @@
     height: 190px;
   }
   #r1:checked ~ .s1 {
-    margin-left: 0%;
+    left: 0px;
   }
 
   #r2:checked ~ .s1 {
-    margin-left: -929px;
+    left: 0px;
   }
 
   #r3:checked ~ .s1 {
-    margin-left: -1858px;
+    left: 0px;
   }
 
   #r4:checked ~ .s1 {
-    margin-left: -2787px;
+    left: 0px;
   }
 
   #r5:checked ~ .s1 {
-    margin-left: -3716px;
+    left: 0px;
   }
 }
