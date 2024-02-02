@@ -8,7 +8,7 @@
 @media screen and (max-width: 476px) {
   body {
     min-width: 476px;
-    zoom: 0.9;
+    zoom: 100%;
   }
 
   .hull-1 {
