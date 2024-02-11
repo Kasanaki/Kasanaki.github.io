@@ -78,25 +78,25 @@
 
 /*
 @media screen and (max-width: 415px) {
-  .hull-1 {
-    height: 635px;
+  body {
+    min-width: 476px;
   }
 }
 
 @media screen and (max-width: 391px) {
-  .hull-1 {
-    height: 600px;
+  body {
+    min-width: 476px;
   }
 }
 
 @media screen and (max-width: 376px) {
-  .hull-1 {
-    height: 580px;
+  body {
+    min-width: 476px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .hull-1 {
-    height: 555px;
+  body {
+    min-width: 476px;
   }
 }*/
