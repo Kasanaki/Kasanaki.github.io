@@ -6,6 +6,10 @@
 }*/
 
 @media screen and (max-width: 476px) {
+  html {
+    zoom: 0.899;
+  }
+
   body {
     min-width: 476px;
   }
